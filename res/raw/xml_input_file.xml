@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- /*
+ * 
+ * @author Shivani Nayar (shivani.nayar@asu.edu)
+ * @Version December,2012
+ * 
+ */
+ -->
+<form>
+    <title>Registration Form</title>
+    <tableName>FormDB</tableName>
+    <fields>
+        <dbName>email_address</dbName>
+        <type>string</type>
+        <required>true</required>
+        <value>Email Address</value>
+        <hint>Email Address</hint>
+        <inputType>email</inputType>
+        <fieldType>text</fieldType>
+    </fields>
+    <fields>
+        <dbName>username</dbName>
+        <type>string</type>
+        <required>true</required>
+        <value>Username</value>
+        <hint>Username</hint>
+        <inputType>text</inputType>
+        <fieldType>text</fieldType>
+     </fields>
+     <fields>
+        <dbName>password</dbName>
+        <type>string</type>
+        <required>true</required>
+        <value>Password</value>
+        <hint>Password</hint>
+        <inputType>password</inputType>
+        <fieldType>text</fieldType>
+     </fields>
+    <fields>
+        <dbName>first_name</dbName>
+        <type>string</type>
+        <required>true</required>
+        <value>First Name</value>
+        <hint>First Name</hint>
+        <inputType>name</inputType>
+        <fieldType>text</fieldType>
+     </fields>
+     <fields>
+         <dbName>last_name</dbName>
+         <type>string</type>
+         <required>true</required>
+         <value>Last Name</value>
+         <hint>Last Name</hint>
+         <inputType>name</inputType>
+         <fieldType>text</fieldType>
+     </fields>
+     <fields>
+         <dbName>date_of_birth</dbName>
+         <type>string</type>
+         <required>true</required>
+         <value>Date of Birth</value>
+         <hint> MM/DD/YYYY </hint>
+         <inputType>birthDate</inputType>
+         <fieldType>text</fieldType>
+     </fields>
+     <fields>
+         <dbName>education_level</dbName>
+         <type>string</type>
+         <required>false</required>
+         <value>Education level</value>
+         <values>Select education level</values>
+         <values>High school course</values>
+         <values>High School</values>
+         <values>Associate Degree</values>
+         <values>Bachelors Degree</values>
+         <values>Masters Degree</values>
+         <values>Doctorate</values>
+         <values>Certified Professional</values>
+         <hint>Education Level</hint>
+         <inputType>spinner</inputType>
+         <fieldType>spinner</fieldType>
+     </fields>
+     <fields>
+         <dbName>email_promotion</dbName>
+         <type>string</type>
+         <required>false</required>
+         <value>Email me promotions and updates</value>
+         <values>Yes</values>
+         <values>No</values>
+         <hint>Promotion</hint>
+         <inputType>radioButton</inputType>
+         <fieldType>radioButton</fieldType>
+     </fields>
+     <fields>
+         <dbName>skill_rating</dbName>
+         <type>integer</type>
+         <required>true</required>
+         <value>Profeciency in app development</value>
+         <values>1</values>
+         <values>10</values>
+         <hint>5</hint>
+         <inputType>seekBar</inputType>
+         <fieldType>seekBar</fieldType>
+     </fields>
+</form>
